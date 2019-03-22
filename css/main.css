@@ -14,6 +14,7 @@ p
 
 ul
 {
+    padding-left: 0.25em;
     list-style-type: none;
     font-size: 1.25em;
 }
@@ -24,3 +25,25 @@ ul li::before
     padding-right: 0.5em;
     font-weight: 900;
 }
+
+/*spacing for main*/
+main
+{
+    padding-top: 1em;
+}
+
+section
+{
+    padding-bottom: 1em;
+}
+
+/*styling for sections*/
+ .education h3
+ {
+     padding-left: 1em;
+ }
+
+ .education h4
+ {
+     padding-left: 3em;
+ }
