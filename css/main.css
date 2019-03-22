@@ -1,21 +1,12 @@
+/* Font */
 body
 {
     font-family: 'Gruppo';
 }
 
-h1,
-h2,
-h3,
-h4,
+ul,
 p
 {
-    margin: 0;
-}
-
-ul
-{
-    padding-left: 0.25em;
-    list-style-type: none;
     font-size: 1.25em;
 }
 
@@ -37,6 +28,15 @@ section
     padding-bottom: 1em;
 }
 
+h1,
+h2,
+h3,
+h4,
+p
+{
+    margin: 0;
+}
+
 /*styling for sections*/
  section h3
  {
@@ -47,3 +47,10 @@ section
  {
      padding-left: 3em;
  }
+
+ul
+{
+    padding-left: 0.25em;
+    list-style-type: none;
+}
+
