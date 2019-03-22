@@ -19,6 +19,11 @@ ul li::before
     font-weight: 900;
 }
 
+a
+{
+    color: #00F;
+}
+
 /*spacing for main*/
 main
 {
