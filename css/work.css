@@ -41,6 +41,20 @@
     text-align: right;
 }
 
+.project article h1,
+.project article h2,
+.projects article h3,
+.project article h4
+{
+    text-decoration: underline;
+}
+
+/* Spacing */
+article
+{
+    padding-bottom: 0.5em;
+}
+
 /* Column layout for lists */
 .experience ul.lists
 {

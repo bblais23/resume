@@ -34,25 +34,32 @@ h1,
 h2,
 h3,
 h4,
-p
+p,
+ul
 {
     margin: 0;
 }
 
-/*styling for sections*/
- section h3
- {
-     padding-left: 1em;
- }
+section h3
+{
+    padding-left: 1em;
+}
 
- section h4
- {
-     padding-left: 3em;
- }
+section h4
+{
+    padding-left: 3em;
+}
 
 ul
 {
-    padding-left: 0.25em;
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+}
+
+/*styling for sections*/
+
+ul
+{
     list-style-type: none;
 }
 

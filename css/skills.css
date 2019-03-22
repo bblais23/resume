@@ -11,3 +11,8 @@
 /*font*/
 
 /*spacing*/
+.skills ul
+{
+    padding-top: 0;
+    padding-left: 2em;
+}

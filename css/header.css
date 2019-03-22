@@ -39,7 +39,7 @@ header
 /* Indentation and padding */
 header
 {
-    padding: 0 1em 1em 0;
+    padding-bottom: 1em;
 }
 
 header h3
