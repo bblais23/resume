@@ -38,12 +38,12 @@ section
 }
 
 /*styling for sections*/
- .education h3
+ section h3
  {
      padding-left: 1em;
  }
 
- .education h4
+ section h4
  {
      padding-left: 3em;
  }

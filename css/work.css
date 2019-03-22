@@ -1,0 +1,47 @@
+/* Grid layout */
+.work article
+{
+    display: grid;
+    grid-template-areas: 
+        "title duration"
+        "company location"
+        "lists lists"
+        ;
+}
+
+.work .company
+{
+    grid-area: company;
+}
+
+.work .title
+{
+    grid-area: title;
+}
+
+.work .location
+{
+    grid-area: location;
+}
+
+.work .duration
+{
+    grid-area: duration;
+}
+
+.work .lists
+{
+    grid-area: lists;
+}
+
+/* Font management */
+.work article .duration,
+.work article .location
+{
+    text-align: right;
+}
+
+.work article .lists
+{
+    columns: 2;
+}
