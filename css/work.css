@@ -1,5 +1,5 @@
 /* Grid layout */
-.work article
+.experience
 {
     display: grid;
     grid-template-areas: 
@@ -9,39 +9,39 @@
         ;
 }
 
-.work .company
+.experience .company
 {
     grid-area: company;
 }
 
-.work .title
+.experience .title
 {
     grid-area: title;
 }
 
-.work .location
+.experience .location
 {
     grid-area: location;
 }
 
-.work .duration
+.experience .duration
 {
     grid-area: duration;
 }
 
-.work .lists
+.experience .lists
 {
     grid-area: lists;
 }
 
 /* Font management */
-.work article .duration,
-.work article .location
+.experience .duration,
+.experience .location
 {
     text-align: right;
 }
 
-.work article .lists
+.experience .lists
 {
     columns: 2;
 }
