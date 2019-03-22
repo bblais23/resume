@@ -41,7 +41,8 @@
     text-align: right;
 }
 
-.experience .lists
+/* Column layout for lists */
+.experience ul.lists
 {
     columns: 2;
 }
