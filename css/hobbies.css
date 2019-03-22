@@ -1,0 +1,5 @@
+/* Column layout */
+.hobbies ul
+{
+    columns: 3;
+}
