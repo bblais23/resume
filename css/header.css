@@ -53,10 +53,6 @@ address
     font-weight: lighter;
     text-align: right;
 }
-address a
-{
-    font-size: 1.2em;
-}
 
 
 /* Content after different sections of the address */
@@ -71,7 +67,6 @@ address .state::after
 
 /* Handle linebreaks for each of the address fields */
 address .street::after,
-address .state::after,
 address .zipcode::after,
 address .phone::after,
 address .email::after,
@@ -82,11 +77,3 @@ address .website::after
 }
 
 /* Fixes */
-
-/* Zipcode looks add the current scale */
-address .zipcode
-{
-
-    font-size: 1.1em;
-    font-weight: thin;
-}
