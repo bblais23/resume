@@ -1,0 +1,26 @@
+body
+{
+    font-family: 'Gruppo';
+}
+
+h1,
+h2,
+h3,
+h4,
+p
+{
+    margin: 0;
+}
+
+ul
+{
+    list-style-type: none;
+    font-size: 1.25em;
+}
+
+ul li::before
+{
+    content: '-';
+    padding-right: 0.5em;
+    font-weight: 900;
+}
