@@ -1,4 +1,3 @@
-
 /*Grid layout*/
 header
 {
@@ -6,9 +5,10 @@ header
     justify-items: stretch;
     align-items: start;
     grid-template-areas:
-        "name address"
-        "title address"
-        ". address";
+    "name address"
+    "title address"
+    ". address"
+    ;
 }
 
 header .name
@@ -29,7 +29,6 @@ header address
 /* Add an underline for the header */
 header
 {
-    padding-bottom: 1em;
     border-width: 1px;
     border-style: solid;
     border-image: linear-gradient(to right, #000, #FFF) 5;
@@ -37,7 +36,12 @@ header
     border-left: none;
 }
 
-/* Indent title */
+/* Indentation and padding */
+header
+{
+    padding: 0 1em 1em 0;
+}
+
 header h3
 {
     padding-left: 0.5em;
@@ -46,8 +50,14 @@ header h3
 /* format text and alignment */
 address
 {
+    font-weight: lighter;
     text-align: right;
 }
+address a
+{
+    font-size: 1.2em;
+}
+
 
 /* Content after different sections of the address */
 address .city::after
