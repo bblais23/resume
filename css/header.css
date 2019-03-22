@@ -31,7 +31,7 @@ header
 {
     border-width: 1px;
     border-style: solid;
-    border-image: linear-gradient(to right, #000, #FFF) 5;
+    border-image: linear-gradient(to right, #FFF, #000, #FFF) 5;
     border-top: none;
     border-left: none;
 }
