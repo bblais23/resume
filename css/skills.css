@@ -2,12 +2,12 @@
 .skills
 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 2fr 2fr 1fr;
     grid-auto-flow: column;
 }
 
 /* Bars */
-.skills .skill-category
+.skills .skill-category:not(:last-child)
 {
     border-width: 1px;
     border-style: solid;

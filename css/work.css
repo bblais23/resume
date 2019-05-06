@@ -49,12 +49,6 @@
     text-decoration: underline;
 }
 
-/* Spacing */
-article
-{
-    padding-bottom: 0.5em;
-}
-
 /* Column layout for lists */
 .experience ul.lists
 {
