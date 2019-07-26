@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "browser-sync start --server --files '.'"
+	"serve": "browser-sync start --server --files '.'",
+	"build": "node ./scripts/generatePDF.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/bblais23/resume#readme",
   "devDependencies": {
-    "browser-sync": "^2.26.7"
+    "browser-sync": "^2.26.7",
+    "puppeteer": "^1.19.0"
   }
 }
