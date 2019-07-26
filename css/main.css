@@ -1,7 +1,9 @@
 /* Font */
 body
 {
-    font-family: 'ZCOOL XiaoWei';
+	font-family: 'ZCOOL XiaoWei';
+	font-weight: 100;
+	padding: 2em;
 }
 
 h1,
@@ -9,7 +11,8 @@ h2,
 h3,
 h4
 {
-    font-family: 'Gruppo';
+	font-family: 'Gruppo';
+	font-weight: 400;
 }
 
 ul li::before
@@ -21,7 +24,9 @@ ul li::before
 
 a
 {
-    color: #00F;
+	color: #00F;
+	text-decoration: none;
+	border-bottom: 0.1pt solid rgba(0, 0, 255, 0.5);
 }
 
 /*spacing for main*/
@@ -47,12 +52,12 @@ ul
 
 section h3
 {
-    padding-left: 1em;
+    margin-left: 1em;
 }
 
 section h4
 {
-    padding-left: 3em;
+    margin-left: 3em;
 }
 
 ul

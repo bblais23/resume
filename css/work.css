@@ -46,7 +46,8 @@
 .projects article h3,
 .project article h4
 {
-    text-decoration: underline;
+	display: inline;
+	border-bottom: 0.1pt solid rgba(0, 0, 0, 0.5);
 }
 
 /* Column layout for lists */
