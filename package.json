@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/bblais23/resume#readme",
   "devDependencies": {
-    "browser-sync": "^2.26.3"
+    "browser-sync": "^2.26.7"
   }
 }
