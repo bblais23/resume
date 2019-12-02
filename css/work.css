@@ -1,6 +1,7 @@
 /* Grid layout */
 .experience
 {
+		padding-top: 0.5em;
 		display: grid;
 		grid-template-areas: 
 				"title duration"
