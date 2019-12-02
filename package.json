@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-	"serve": "browser-sync start --server --files '.'",
-	"build": "node ./scripts/generatePDF.js"
+    "serve": "browser-sync start --server --files '.'",
+    "build": "node ./scripts/generatePDF.js"
   },
   "repository": {
     "type": "git",
