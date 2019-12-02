@@ -1,44 +1,44 @@
 /* Grid layout */
 .experience
 {
-    display: grid;
-    grid-template-areas: 
-        "title duration"
-        "company location"
-        "lists lists"
-        ;
+		display: grid;
+		grid-template-areas: 
+				"title duration"
+				"company location"
+				"lists lists"
+				;
 }
 
 .experience .company
 {
-    grid-area: company;
+		grid-area: company;
 }
 
 .experience .title
 {
-    grid-area: title;
+		grid-area: title;
 }
 
 .experience .location
 {
-    grid-area: location;
+		grid-area: location;
 }
 
 .experience .duration
 {
-    grid-area: duration;
+		grid-area: duration;
 }
 
 .experience .lists
 {
-    grid-area: lists;
+		grid-area: lists;
 }
 
 /* Font management */
 .experience .duration,
 .experience .location
 {
-    text-align: right;
+		text-align: right;
 }
 
 .project article h1,
@@ -53,5 +53,5 @@
 /* Column layout for lists */
 .experience ul.lists
 {
-    columns: 2;
+		columns: 2;
 }

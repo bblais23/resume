@@ -17,9 +17,9 @@ h4
 
 ul li::before
 {
-    content: '-';
-    padding-right: 0.5em;
-    font-weight: 900;
+		content: '-';
+		padding-right: 0.5em;
+		font-weight: 900;
 }
 
 a
@@ -32,12 +32,12 @@ a
 /*spacing for main*/
 main
 {
-    padding-top: 1em;
+		padding-top: 1em;
 }
 
 section
 {
-    padding-bottom: 0.75em;
+		padding-bottom: 0.75em;
 }
 
 h1,
@@ -47,29 +47,29 @@ h4,
 p,
 ul
 {
-    margin: 0;
+		margin: 0;
 }
 
 section h3
 {
-    margin-left: 1em;
+		margin-left: 1em;
 }
 
 section h4
 {
-    margin-left: 3em;
+		margin-left: 3em;
 }
 
 ul
 {
-    padding-left: 0.5em;
-    padding-top: 0.5em;
+		padding-left: 0.5em;
+		padding-top: 0.5em;
 }
 
 /*styling for sections*/
 
 ul
 {
-    list-style-type: none;
+		list-style-type: none;
 }
 

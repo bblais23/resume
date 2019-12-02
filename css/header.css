@@ -1,68 +1,68 @@
 /*Grid layout*/
 header
 {
-    display: grid;
-    justify-items: stretch;
-    align-items: start;
-    grid-template-areas:
-    "name address"
-    "title address"
-    ". address"
-    ;
+		display: grid;
+		justify-items: stretch;
+		align-items: start;
+		grid-template-areas:
+		"name address"
+		"title address"
+		". address"
+		;
 }
 
 header .name
 {
-    grid-area: name;
+		grid-area: name;
 }
 
 header .title
 {
-    grid-area: title;
+		grid-area: title;
 }
 
 header address
 {
-    grid-area: address;
+		grid-area: address;
 }
 
 /* Add an underline for the header */
 header
 {
-    border-width: 1px;
-    border-style: solid;
-    border-image: linear-gradient(to right, #FFF, #000, #FFF) 5;
-    border-top: none;
-    border-left: none;
+		border-width: 1px;
+		border-style: solid;
+		border-image: linear-gradient(to right, #FFF, #000, #FFF) 5;
+		border-top: none;
+		border-left: none;
 }
 
 /* Indentation and padding */
 header
 {
-    padding-bottom: 0.75em;
+		padding-bottom: 0.75em;
 }
 
 header h3
 {
-    padding-left: 0.5em;
+		padding-left: 0.5em;
 }
 
 /* format text and alignment */
 address
 {
-    font-weight: lighter;
-    text-align: right;
+		font-weight: lighter;
+		text-align: right;
 }
 
 
 /* Content after different sections of the address */
 address .city::after
 {
-    content: ', ';
+		content: ', ';
 }
 address .state::after
 {
-    content: ' ';
+		content: ' ';
 }
 
 /* Handle linebreaks for each of the address fields */
@@ -72,8 +72,8 @@ address .phone::after,
 address .email::after,
 address .website::after
 {
-    content: '\A';
-    white-space: pre;
+		content: '\A';
+		white-space: pre;
 }
 
 /* Fixes */

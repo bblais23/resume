@@ -1,5 +1,5 @@
 /* Column layout */
 .hobbies ul
 {
-    columns: 3;
+		columns: 3;
 }
